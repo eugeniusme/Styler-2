@@ -27,7 +27,7 @@ def save_in_file(data):
     print('New file was created')
 
 if __name__ == '__main__':
-    #filename = 'vacancies.json'
+    #file_title = 'vacancies.json'
     file_title = input('Please input title of file')
     data = open_file_with_big_data(file_title)
     if data is not None:
