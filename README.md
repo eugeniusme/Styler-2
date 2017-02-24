@@ -10,8 +10,8 @@
 
 Пример вывода: 
 
-// Please, input your api key: 
-// File was created.
+Please, input your api key: 
+File was created.
 
 
 # edit_data.py
