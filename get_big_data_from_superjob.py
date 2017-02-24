@@ -22,7 +22,7 @@ def save_in_file(data):
         json.dump(data, file)
  
 if __name__ == '__main__':
-    api_key = input('Please, input your api key')
+    api_key = input('Please, input your api key:')
     header = get_api_from_superjob(api_key)
     if header is not None:
         object_of_search = 'vacancies'
