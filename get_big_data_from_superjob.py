@@ -27,6 +27,6 @@ if __name__ == '__main__':
     header = get_api_from_superjob(api_key)
     if header is not None:
         object_of_search = 'vacancies'
-        count = 200
+        count = 100
         data = get_data_from_superjob(object_of_search, count, header).json()
         save_in_file(data)
